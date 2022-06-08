@@ -1,6 +1,6 @@
 package com.bosonit.ejercicios.bs2.Controller;
 
-import com.bosonit.ejercicios.RunApplication;
+import com.bosonit.ejercicios.bs2.Application.RunApplication;
 import com.bosonit.ejercicios.bs2.Class.Persona;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

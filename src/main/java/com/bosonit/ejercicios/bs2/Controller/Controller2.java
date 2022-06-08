@@ -1,6 +1,6 @@
 package com.bosonit.ejercicios.bs2.Controller;
 
-import com.bosonit.ejercicios.RunApplication;
+import com.bosonit.ejercicios.bs2.Application.RunApplication;
 import com.bosonit.ejercicios.bs2.Class.Ciudad;
 import com.bosonit.ejercicios.bs2.Class.Persona;
 import com.bosonit.ejercicios.bs2.Class.PersonaService;
