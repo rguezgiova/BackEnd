@@ -11,11 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootApplication
-public class RunApplication {
+public class BS2Application {
 	public static ConfigurableApplicationContext configurableApplicationContext;
 
 	public static void main(String[] args) {
-		configurableApplicationContext = SpringApplication.run(RunApplication.class, args);
+		configurableApplicationContext = SpringApplication.run(BS2Application.class, args);
 	}
 
 	@Bean

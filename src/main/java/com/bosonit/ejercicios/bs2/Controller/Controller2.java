@@ -1,6 +1,6 @@
 package com.bosonit.ejercicios.bs2.Controller;
 
-import com.bosonit.ejercicios.bs2.Application.RunApplication;
+import com.bosonit.ejercicios.bs2.Application.BS2Application;
 import com.bosonit.ejercicios.bs2.Class.Ciudad;
 import com.bosonit.ejercicios.bs2.Class.Persona;
 import com.bosonit.ejercicios.bs2.Class.PersonaService;
@@ -24,6 +24,6 @@ public class Controller2 {
 
     @GetMapping("/controlador2/getCiudad")
     public List<Ciudad> getCiudad() {
-        return (List<Ciudad>) RunApplication.configurableApplicationContext.getBean("listaCiudades");
+        return (List<Ciudad>) BS2Application.configurableApplicationContext.getBean("listaCiudades");
     }
 }

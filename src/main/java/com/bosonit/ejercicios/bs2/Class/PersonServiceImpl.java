@@ -3,7 +3,7 @@ package com.bosonit.ejercicios.bs2.Class;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PersonaServiceImpl implements PersonaService {
+public class PersonServiceImpl implements PersonaService {
     private Persona persona;
 
     @Override

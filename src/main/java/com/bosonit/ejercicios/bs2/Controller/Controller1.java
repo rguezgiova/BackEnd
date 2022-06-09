@@ -1,6 +1,6 @@
 package com.bosonit.ejercicios.bs2.Controller;
 
-import com.bosonit.ejercicios.bs2.Application.RunApplication;
+import com.bosonit.ejercicios.bs2.Application.BS2Application;
 import com.bosonit.ejercicios.bs2.Class.Ciudad;
 import com.bosonit.ejercicios.bs2.Class.Persona;
 import com.bosonit.ejercicios.bs2.Class.PersonaService;
@@ -28,7 +28,7 @@ public class Controller1 {
 
     @PostMapping("/controlador1/addCiudad")
     public Ciudad addCiudad(@RequestBody Ciudad ciudad) {
-        List<Ciudad> beanList = (List<Ciudad>) RunApplication.configurableApplicationContext.getBean("listaCiudades");
+        List<Ciudad> beanList = (List<Ciudad>) BS2Application.configurableApplicationContext.getBean("listaCiudades");
         beanList.add(ciudad);
         return ciudad;
     }

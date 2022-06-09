@@ -1,4 +1,4 @@
-package com.bosonit.ejercicios.restService.Class;
+package com.bosonit.ejercicios.restServiceEjemplo1.Class;
 
 public class Greeting {
 

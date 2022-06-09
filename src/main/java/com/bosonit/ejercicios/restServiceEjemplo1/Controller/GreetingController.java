@@ -1,6 +1,6 @@
-package com.bosonit.ejercicios.restService.Controller;
+package com.bosonit.ejercicios.restServiceEjemplo1.Controller;
 
-import com.bosonit.ejercicios.restService.Class.Greeting;
+import com.bosonit.ejercicios.restServiceEjemplo1.Class.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
