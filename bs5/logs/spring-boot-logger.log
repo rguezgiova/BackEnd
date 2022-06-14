@@ -1,0 +1,26 @@
+2022-06-14 13:29:08,814 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-06-14 13:29:08,824 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-14 13:29:08,824 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-14 13:29:08,825 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-14 13:29:08,898 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-14 13:29:08,898 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1073 ms
+2022-06-14 13:29:09,234 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-14 13:29:09,263 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 13:29:09,274 WARN com.bosonit.bs5.Bs5Application [main] WARN message
+2022-06-14 13:29:09,274 WARN com.bosonit.bs5.Bs5Application [main] WARN message
+2022-06-14 13:29:09,275 ERROR com.bosonit.bs5.Bs5Application [main] ERROR message
+2022-06-14 13:29:09,275 ERROR com.bosonit.bs5.Bs5Application [main] ERROR message
+2022-06-14 13:29:45,789 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-06-14 13:29:45,800 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-14 13:29:45,800 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-14 13:29:45,800 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-14 13:29:45,895 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-14 13:29:45,895 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1055 ms
+2022-06-14 13:29:46,234 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-14 13:29:46,261 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-14 13:29:46,272 WARN com.bosonit.bs5.Bs5Application [main] WARN message
+2022-06-14 13:29:46,272 WARN com.bosonit.bs5.Bs5Application [main] WARN message
+2022-06-14 13:29:46,273 ERROR com.bosonit.bs5.Bs5Application [main] ERROR message
+2022-06-14 13:29:46,273 ERROR com.bosonit.bs5.Bs5Application [main] ERROR message
+2022-06-14 13:32:11,057 WARN com.bosonit.bs5.Bs5Application [main] WARN message
+2022-06-14 13:32:11,059 ERROR com.bosonit.bs5.Bs5Application [main] ERROR message
