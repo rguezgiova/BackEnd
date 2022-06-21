@@ -1,6 +1,6 @@
 package com.bosonit.bp1.content.domain;
 
-import com.bosonit.bp1.content.infraestructure.controller.dto.input.PersonaInputDto;
+import com.bosonit.bp1.content.infraestructure.dto.input.PersonaInputDto;
 import com.sun.istack.NotNull;
 import lombok.*;
 

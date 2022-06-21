@@ -1,8 +1,11 @@
 package com.bosonit.bp1.content.infraestructure.controller;
 
-import com.bosonit.bp1.content.application.port.IPersonaService;
-import com.bosonit.bp1.content.infraestructure.controller.dto.input.PersonaInputDto;
-import com.bosonit.bp1.content.infraestructure.controller.dto.output.PersonaOutputDto;
+import com.bosonit.bp1.content.application.port.AddPersonaPort;
+import com.bosonit.bp1.content.application.port.DeletePersonaPort;
+import com.bosonit.bp1.content.application.port.GetPersonaPort;
+import com.bosonit.bp1.content.application.port.UpdatePersonaPort;
+import com.bosonit.bp1.content.infraestructure.dto.input.PersonaInputDto;
+import com.bosonit.bp1.content.infraestructure.dto.output.PersonaOutputDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,35 +15,41 @@ import java.util.List;
 @RestController
 public class PersonaController {
     @Autowired
-    IPersonaService personaService;
+    AddPersonaPort addPersonaPort;
+    @Autowired
+    DeletePersonaPort deletePersonaPort;
+    @Autowired
+    GetPersonaPort getPersonaPort;
+    @Autowired
+    UpdatePersonaPort updatePersonaPort;
 
-    @PostMapping("/add")
+    @PostMapping
     public PersonaOutputDto addPersona(@RequestBody PersonaInputDto personaInputDto) throws Exception {
-        return personaService.addPersona(personaInputDto);
+        return addPersonaPort.addPersona(personaInputDto);
     }
 
-    @GetMapping("/id/{id}")
+    @GetMapping("/{id}")
     public PersonaOutputDto getPersonaId(@PathVariable("id") int id) throws Exception {
-        return personaService.getPersonaId(id);
+        return getPersonaPort.getPersonaId(id);
     }
 
     @GetMapping("/nombre/{nombre}")
     public List<PersonaOutputDto> getPersonaName(@PathVariable("nombre") String usuario) throws Exception {
-        return personaService.getPersonaName(usuario);
+        return getPersonaPort.getPersonaName(usuario);
     }
 
     @GetMapping
     public List<PersonaOutputDto> getPersonas() {
-        return personaService.getPersonas();
+        return getPersonaPort.getPersonas();
     }
 
     @PutMapping("/{id}")
     public PersonaOutputDto updatePersona(@PathVariable("id") int id, @RequestBody PersonaInputDto personaInputDto) throws Exception {
-        return personaService.updatePersona(id, personaInputDto);
+        return updatePersonaPort.updatePersona(id, personaInputDto);
     }
 
     @DeleteMapping("/{id}")
     public void deletePersona(@PathVariable("id") int id) throws Exception {
-        personaService.deletePersona(id);
+        deletePersonaPort.deletePersona(id);
     }
 }

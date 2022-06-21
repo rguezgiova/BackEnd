@@ -1,4 +1,4 @@
-package com.bosonit.bp1.content.infraestructure.controller.dto.input;
+package com.bosonit.bp1.content.infraestructure.dto.input;
 
 import lombok.Data;
 

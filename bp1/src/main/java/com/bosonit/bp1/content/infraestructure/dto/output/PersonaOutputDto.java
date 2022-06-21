@@ -1,4 +1,4 @@
-package com.bosonit.bp1.content.infraestructure.controller.dto.output;
+package com.bosonit.bp1.content.infraestructure.dto.output;
 
 import com.bosonit.bp1.content.domain.Persona;
 import lombok.Data;
